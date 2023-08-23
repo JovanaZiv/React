@@ -1,6 +1,4 @@
 import { useParams } from "react-router-dom";
-import Recipe from "./Recipe";
-import { useState } from "react";
 import RecipeList from "./RecipeList";
 
 const RecipeByIngredient = ({ recipes }) => {
